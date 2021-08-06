@@ -27,7 +27,7 @@ If you are opting out of career services, this is still a required assignment. P
 
 [Live Link](https://sarsieg.github.io/Finalized-Professional-Portfolio/)
 
-![Screenshot (33)](https://user-images.githubusercontent.com/80021714/127571122-53ef38e2-8a17-4b72-b37c-4142c4eab9d5.png)
+![Screenshot (49)](assets/images/Screenshot(49).png)
 
 
 ### Installation
