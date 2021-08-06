@@ -1,0 +1,42 @@
+.hero-body {
+    text-align: center;
+    display: block!important;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+body {
+    background-image: url(../images/background.png);
+}
+
+article {
+    padding: 20px;
+}
+
+a {
+    font-size: 23px;
+}
+
+.title,
+h1,
+h2 {
+    font-family: 'Homemade Apple', cursive!important;
+}
+
+.title {
+    font-size: 60px!important;
+    /* color: black!important; */
+    margin-top: 60px;
+}
+
+.subtitle {
+    padding: 20px;
+}
+
+.title.is-4 {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.content {
+    font-size: 20px;
+}

@@ -2,14 +2,232 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+
+    <section class="hero is-success is-halfheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title" id="title">
+                    Sarah Siegel
+                </p>
+                <p class="subtitle" id="subtitle">
+                    professional portfolio
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="tabs is-centered">
+        <ul>
+            <li class="is-active"><a href="#aboutme">About Me</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#email">Email</a></li>
+            <li><a href="#linkedin">LinkedIn</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </div>
+    \
+    </nav>
+
+    <div class="content is-large" id=aboutme>
+
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum
+            mattis neque.</p>
+        <article id="projects">
+            <h2>Projects</h2>
+            <p>With so many weeks of new coding and web development being learned it is difficult to pick which projects stand out the most. Below I have listed some of the most fun and <strong>challenging</strong> projects throughout the course, with so
+                many more to go here are just a few.</p>
+            <ul>
+                <li>Food Finders</li>
+                <li>Weather App</li>
+                <li>Ho[w]asit</li>
+                <li>Express Note Taker</li>
+            </ul>
+            <div class="columns">
+                <div class="column">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/Screenshot1.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+
+                                <div class="media-content">
+                                    <p class="title is-4">Food Finders</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                This application allows the user to search a server-side database (through Edamam) for succinct recipes and drink recipes through another server-side API.
+
+                                <li><a href="https://claholla.github.io/Food-Finders/">Live Link</a></li>
+
+                                <li><a href="https://github.com/Claholla/Food-Finders">GitHub Repo</a></li>
+                                <br>
+                                <time datetime="2021-06-10">June 10, 2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/weatherscreenshot.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+
+                                <div class="media-content">
+                                    <p class="title is-4">Weather App</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                When creating this app my motivation was to show the power and amazing things that server-side APIs, Javascript, Bootstrap, CSS and HTML have when working together. You can connect so many different sources of information to run through your site, the
+                                options are endless.
+
+                                <li><a href="https://sarsieg.github.io/Weather-Dashboard/">Live Link</a></li>
+
+                                <li><a href="https://github.com/sarsieg/Weather-Dashboard">GitHub Repo</a></li>
+                                <br>
+                                <time datetime="2021-05-22">May 22, 2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/Screenshot (47).png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+
+                                <div class="media-content">
+                                    <p class="title is-4">Ho[w]as it</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                This application allows users to log into Ho[w]asit using an authentication process with a personal email and password. Also allows users to see other users posts and reviews of different movie/tv shows as well as allows them to log out so their account
+                                is no longer accessible.
+
+                                <li><a href="https://how-was-it.herokuapp.com/">Live Link</a></li>
+
+                                <li><a href="https://github.com/scoven2/Siegel-Project">GitHub Repo</a></li>
+                                <br>
+                                <time datetime="2021-07-29">July 29, 2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/firstpage.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+
+                                <div class="media-content">
+                                    <p class="title is-4">Express Note Taker</p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                This project creates a simple Express.js based note app that is able to create, save and delete new notes and exisiting ones. This application uses an express backend and can save and retrieve note data from a JSON file.
+
+                                <li><a href="https://claholla.github.io/Food-Finders/">Live Link</a></li>
+
+                                <li><a href="https://github.com/Claholla/Food-Finders">GitHub Repo</a></li>
+                                <br>
+                                <time datetime="2021-06-29">June 29, 2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article id="github">
+            <h2>GitHub</h2>
+
+            <div class="columns">
+                <div class="column">
+                    <figure class="image is-128x128">
+                        <img src="./assets/images/image_123986672.jpg">
+                    </figure>
+                    <br>
+                    <br>
+                    <a href="https://github.com/sarsieg">GitHub Repo</a>
+                </div>
+
+            </div>
+
+
+
+
+        </article>
+        <article id="email">
+            <h2>Email</h2>
+            <p>While there are <strong>many</strong> different ways to get ahold of me via GitHub, LinkedIn, Phone, etc. The best way to contact me is via email.</p>
+            <br>
+            <a href="sarah.ac.siegel@gmail.com">My Personal Email:
+                <br> sarah.ac.siegel@gmail.com
+            </a>
+        </article>
+        <article id="linkedin">
+            <h2>LinkedIn</h2>
+            <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus
+                facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+            <ul>
+                <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+                <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+                <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+                <li>Ut non enim metus.</li>
+            </ul>
+        </article>
+        <article id="resume">
+            <h2>Resume</h2>
+            <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus
+                facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+            <ul>
+                <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+                <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+                <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+                <li>Ut non enim metus.</li>
+            </ul>
+        </article>
+    </div>
+
 
 </body>
 
